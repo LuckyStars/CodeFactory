@@ -3,7 +3,6 @@ package org.luckystars.codefactory.constants;
 /**
  * 数据类型
  * @author xuechong
- *
  */
 public enum DataType {
 	

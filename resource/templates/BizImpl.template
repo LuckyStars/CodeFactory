@@ -1,0 +1,10 @@
+${package}
+
+public class ${className}<${type}> extends ${baseBizImpl}<${type}>{
+
+	public void ${setDao}(${daoclass} dao){
+		
+		super.setDao(dao);
+	}
+	
+}
