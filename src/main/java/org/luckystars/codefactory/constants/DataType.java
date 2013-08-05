@@ -35,4 +35,12 @@ public enum DataType {
 		return null;
 	}
 	
+	public static DataType findByCode(int code){
+		for (DataType data : DataType.values()) {
+			if(data.getCode() == code){
+				return data;
+			}
+		}
+		return null;
+	}
 }

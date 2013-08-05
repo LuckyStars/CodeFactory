@@ -1,5 +1,13 @@
 package org.luckystars.codefactory.model;
 
-public class TableContext {
+import java.util.Collection;
 
+
+/**
+ * 
+ * @author xuechong
+ */
+public class TableContext {
+	private String name;
+	Collection<Column> column;
 }
