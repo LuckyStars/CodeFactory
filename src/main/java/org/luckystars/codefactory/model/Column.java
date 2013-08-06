@@ -6,4 +6,5 @@ public class Column {
 	private String name;
 	private DataType dataType;
 	private String fk;
+	
 }
